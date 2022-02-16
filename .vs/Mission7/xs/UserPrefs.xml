@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{C22CA623-FCE6-489F-9153-73CC440F7F66}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Views/Shared/_Layout.cshtml">
+    <Files>
+      <File FileName="Mission7/Infrastructure /PaginationTagHelper.cs" Line="38" Column="33" />
+      <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="10" Column="16" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Mission7" expanded="True">
+            <Node name="Mission7" expanded="True">
+              <Node name="Infrastructure " expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Mission7 PreferredExecutionTarget="/Applications/Safari.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
