@@ -29,5 +29,6 @@ namespace Mission7.Models
         public long PageCount { get; set; }
         [Required]
         public double Price { get; set; }
+        
     }
 }

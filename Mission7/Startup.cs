@@ -11,6 +11,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Mission7.Models;
 
+
 namespace Mission7
 {
     public class Startup
@@ -25,6 +26,7 @@ namespace Mission7
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
             services.AddControllersWithViews();
 
             services.AddDbContext<BookstoreContext>(options =>
@@ -34,6 +36,12 @@ namespace Mission7
            });
 
             services.AddScoped<BookListRepository, EFBookListRepository>();
+
+            services.AddRazorPages();
+
+            services.AddDistributedMemoryCache();
+
+            services.AddSession();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -50,15 +58,43 @@ namespace Mission7
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+            //use files in the shared folder
             app.UseStaticFiles();
+
+            app.UseSession();
 
             app.UseRouting();
 
             app.UseAuthorization();
 
+            //endpoints are executed in order
             app.UseEndpoints(endpoints =>
             {
+
+                endpoints.MapControllerRoute("typepage",
+                    "{bookcategory}/Page{pageNum}",
+                    new { Controller = "Home", action = "Index" });
+
+                //go in, and find where it is passing the page num into the url and just have it say the number
+                endpoints.MapControllerRoute(
+                    "Paging",
+                    //only display the word page and number instead of "pageNum=2"
+                     "Page{pageNum}",
+                     new { Controller = "Home", action = "Index", pageNum = 1 });
+                //look at if it only has a project and not page number 
+                endpoints.MapControllerRoute("category",
+                    "{bookcategory}",
+                    new {Controller = "Home", action = "Index", pageNum = 1});
+
+
+
+                
+                //useing the default controller route, "index"
                 endpoints.MapDefaultControllerRoute();
+
+                endpoints.MapRazorPages();
+
+               
             });
         }
     }

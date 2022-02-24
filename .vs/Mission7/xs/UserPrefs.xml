@@ -1,9 +1,14 @@
 ﻿<Properties StartupConfiguration="{C22CA623-FCE6-489F-9153-73CC440F7F66}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Startup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Pages/Cart.cshtml">
     <Files>
-      <File FileName="Mission7/Infrastructure /PaginationTagHelper.cs" Line="38" Column="33" />
-      <File FileName="Mission7/Views/Shared/_Layout.cshtml" />
-      <File FileName="Mission7/Startup.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Pages/Cart.cshtml.cs" Line="41" Column="64" />
+      <File FileName="Mission7/Infrastructure /SessionExtensions.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/ShoppingCart.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Pages/_CartLayout.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Views/Shared/ProjectSummary.cshtml" Line="25" Column="1" />
+      <File FileName="Mission7/Infrastructure /UrlExtensions.cs" Line="12" Column="1" />
+      <File FileName="Mission7/Views/_ViewImports.cshtml" Line="6" Column="31" />
+      <File FileName="Mission7/Pages/Cart.cshtml" Line="41" Column="9" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -12,10 +17,12 @@
             <Node name="Mission7" expanded="True">
               <Node name="Infrastructure " expanded="True" />
               <Node name="Models" expanded="True" />
+              <Node name="Pages" expanded="True">
+                <Node name="Cart.cshtml" expanded="True" selected="True" />
+              </Node>
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="Startup.cs" selected="True" />
             </Node>
           </Node>
         </State>
