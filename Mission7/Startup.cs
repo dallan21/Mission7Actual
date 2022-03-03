@@ -37,6 +37,7 @@ namespace Mission7
            });
 
             services.AddScoped<BookListRepository, EFBookListRepository>();
+            services.AddScoped<PurchaseRepository, EFPurchaseRepository>();
 
             services.AddRazorPages();
 
@@ -48,6 +49,8 @@ namespace Mission7
             services.AddScoped<ShoppingCart>(x => SessionCart.GetShoppingCart(x));
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+            
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
