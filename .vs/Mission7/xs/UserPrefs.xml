@@ -1,12 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Startup.cs">
-    <Files>
-      <File FileName="Mission7/Startup.cs" Line="18" Column="6" />
-    </Files>
+  <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Mission7" expanded="True" selected="True" />
+          <Node name="Mission7" expanded="True" />
         </State>
       </Pad>
     </Pads>
