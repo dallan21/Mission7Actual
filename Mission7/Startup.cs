@@ -35,8 +35,7 @@ namespace Mission7
            });
 
             services.AddScoped<BookListRepository, EFBookListRepository>();
-<<<<<<< Updated upstream
-=======
+
 
             services.AddScoped<PurchaseRepository, EFPurchaseRepository>();
 
@@ -50,7 +49,7 @@ namespace Mission7
             services.AddScoped<ShoppingCart>(x => SessionCart.GetCart(x));
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
->>>>>>> Stashed changes
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
