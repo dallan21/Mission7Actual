@@ -156,3 +156,5 @@
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_CartLayout.cshtml.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseComplete.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs

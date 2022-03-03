@@ -43,8 +43,11 @@ namespace Mission7.Controllers
                 repo.SavePurchase(purchase);
                 shoppingCart.ClearBasket();
 
-                return View();
+                return RedirectToPage("/PurchaseComplete");
+
             }
+            else
+                return View();
         }
     }
 }

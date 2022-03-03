@@ -7,7 +7,10 @@
 
 <p>Thank you for purchasing a book! Please enter your details below to finish checking out!</p>
 
+    
 <form method="post" asp-action="Checkout">
+
+    <div asp-validation-summary="All" class="text-danger"></div>
     <h4>Ship to</h4>
 
     <div class="form-group">
