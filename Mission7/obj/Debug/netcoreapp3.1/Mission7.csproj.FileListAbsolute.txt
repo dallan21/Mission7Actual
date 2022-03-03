@@ -150,3 +150,14 @@
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Mission7.dll
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Mission7.pdb
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Mission7.genruntimeconfig.cache
+<<<<<<< Updated upstream
+=======
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/ProjectSummary.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/Types/Default.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Cart.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_CartLayout.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewImports.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/_ViewStart.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseComplete.cshtml.g.cs
+>>>>>>> Stashed changes

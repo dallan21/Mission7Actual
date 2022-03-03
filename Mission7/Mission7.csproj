@@ -11,6 +11,14 @@
     <None Remove="Microsoft.EntityFrameworkCore.Design" />
     <None Remove="Infrastructure \" />
     <None Remove="Models\ViewModels\" />
+<<<<<<< Updated upstream
+=======
+    <None Remove="Components\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Types\" />
+    <None Remove="Pages\" />
+    <None Remove="Views\Purchase\" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.22" />
@@ -27,5 +35,17 @@
   <ItemGroup>
     <Folder Include="Infrastructure \" />
     <Folder Include="Models\ViewModels\" />
+<<<<<<< Updated upstream
+=======
+    <Folder Include="Components\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Types\" />
+    <Folder Include="wwwroot\css\" />
+    <Folder Include="Pages\" />
+    <Folder Include="Views\Purchase\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\css\" />
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>
