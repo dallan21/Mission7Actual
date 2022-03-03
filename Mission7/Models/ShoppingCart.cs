@@ -9,7 +9,7 @@ namespace Mission7.Models
         // first part declares, second instantiates 
        public List<ShoppingCartItem> Items { get; set; } = new List<ShoppingCartItem>();
 
-       public void AddItem (Book book, int qty)
+       public virtual void AddItem (Book book, int qty)
         {
             ShoppingCartItem line = Items
                 .Where(x => x.Book.BookId == book.BookId)
@@ -28,6 +28,17 @@ namespace Mission7.Models
             {
                 line.Quantity += qty;
             }
+        }
+
+        public virtual void RemoveItem(Book book)
+        {
+            //go out to the book that matches the current book id that is selected 
+            Items.RemoveAll(x => x.Book.BookId == book.BookId);
+        }
+
+        public virtual void ClearBasket()
+        {
+            Items.Clear();
         }
 
         public double CalculateTotal()
