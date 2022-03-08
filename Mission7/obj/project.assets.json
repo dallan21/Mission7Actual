@@ -1206,7 +1206,7 @@
       "outputPath": "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/dallanhernandez/.nuget/NuGet/NuGet.Config"
+        "/Users/dallanhernandez/.config/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
