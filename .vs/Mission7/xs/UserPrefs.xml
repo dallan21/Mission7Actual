@@ -1,24 +1,25 @@
 ﻿<Properties StartupConfiguration="{C22CA623-FCE6-489F-9153-73CC440F7F66}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Views/Shared/Components/CartSummary/Default.cshtml">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/wwwroot/lib/font-awesome/css/fontawesome.min.css">
     <Files>
-      <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="11" Column="19" />
-      <File FileName="Mission7/Components/CartSummaryViewComponent.cs" />
-      <File FileName="Mission7/Views/Shared/Components/CartSummary/Default.cshtml" Line="21" Column="7" />
+      <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="14" Column="8" />
+      <File FileName="Mission7/Views/Shared/Components/CartSummary/Default.cshtml" Line="21" Column="40" />
+      <File FileName="Mission7/wwwroot/lib/font-awesome/css/fontawesome.min.css" Line="9" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
-              <Node name="Components" expanded="True" />
+              <Node name="Pages" expanded="True" />
               <Node name="Views" expanded="True">
                 <Node name="Shared" expanded="True">
                   <Node name="Components" expanded="True">
-                    <Node name="CartSummary" expanded="True">
-                      <Node name="Default.cshtml" selected="True" />
-                    </Node>
+                    <Node name="CartSummary" expanded="True" />
                   </Node>
                 </Node>
+              </Node>
+              <Node name="wwwroot" expanded="True">
+                <Node name="lib" expanded="True" />
               </Node>
             </Node>
           </Node>

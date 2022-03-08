@@ -39,13 +39,9 @@
     <Folder Include="wwwroot\css\" />
     <Folder Include="Pages\" />
     <Folder Include="Views\Purchase\" />
-    <Folder Include="wwwroot\lib\font-awesome\" />
-    <Folder Include="wwwroot\lib\font-awesome\css\" />
     <Folder Include="Views\Shared\Components\CartSummary\" />
   </ItemGroup>
   <ItemGroup>
     <Content Remove="wwwroot\css\" />
-    <Content Remove="wwwroot\lib\font-awesome\" />
-    <Content Remove="wwwroot\lib\font-awesome\css\" />
   </ItemGroup>
 </Project>
