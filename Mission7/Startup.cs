@@ -50,6 +50,8 @@ namespace Mission7
 
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+            //adds the blazor service
+            services.AddServerSideBlazor();
             
         }
 
@@ -103,6 +105,10 @@ namespace Mission7
 
                 endpoints.MapRazorPages();
 
+
+                endpoints.MapBlazorHub();
+                //if it cant find a page then revert to this page
+                endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
                
             });
         }

@@ -1,0 +1,18 @@
+﻿@*This entire routing setup is to make it so that we dont ever have to even touch the server. its all done on the front end*@
+
+
+<Router AppAssembly="typeof(Startup).Assembly">
+
+    @*If we find a matching route then do this*@
+    <Found>
+        @*the AdminLayout is the shared folder for this admin folder*@
+        @*it will find whatever link is in the route and use that and then it will generate the AdminLayout Page*@
+        @*routedata finds the route and tells us what page we want to go to *@
+        <RouteView RouteData="@context" DefaultLayout="typeof(AdminLayout)"></RouteView>
+
+    </Found>
+    @*If we cannot find a matching route, print this sentence*@
+    <NotFound>
+        <h4 class="bg-danger text-white text-center p-2">No Matching Route Found</h4>
+    </NotFound>
+</Router>

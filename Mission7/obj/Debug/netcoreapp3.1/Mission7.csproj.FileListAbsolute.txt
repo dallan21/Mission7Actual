@@ -159,3 +159,17 @@
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/PurchaseComplete.cshtml.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Purchase/Checkout.cshtml.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Views/Shared/Components/CartSummary/Default.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Mission7.RazorComponent.input.cache
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Books.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Mission7.RazorComponent.output.cache
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Mission7.dll
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Books.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Index.cshtml.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/AdminLayout.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Routed.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/_Imports.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/AdminLayout.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Routed.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/_Imports.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Purchases.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Purchases.razor.g.cs

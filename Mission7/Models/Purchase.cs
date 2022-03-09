@@ -36,5 +36,8 @@ namespace Mission7.Models
 
         public string Zipcode { get; set; }
 
+        [BindNever]
+        public bool PurchaseReceived { get; set; }
+
     }
 }
