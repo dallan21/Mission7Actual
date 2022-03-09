@@ -9,18 +9,19 @@
 <html>
 
 <head>
-    <title>Book Store Admin</title>
-    <link rel="stylesheet" href="~/lib/css/bootstrap.min.css" />
-    @*specifies the base URL and/or target for all relative URLs in the document*@
-    <base href="/" />
+<title>Book Store Admin</title>
+<link rel="stylesheet" href="~/lib/css/bootstrap.min.css" />
+@*specifies the base URL and/or target for all relative URLs in the document*@
+<base href="/" />
 </head>
 
 <body>
-    @*go into the compented routed and get the name of that route (cart or book) and drop that into the body*@
-    @*so this will display either the cart or book page *@
 
-    <component type="typeof(Routed)" render-mode="Server" />
-    <script src="/_framework/blazor.server.js"></script>
+@*go into the compented routed and get the name of that route (cart or book) and drop that into the body*@
+@*so this will display either the cart or book page *@
+@*dependent on if we found a route from the routed page*@
+<component type="typeof(Routed)" render-mode="Server" />
+<script src="/_framework/blazor.server.js"></script>
 
 </body>
 

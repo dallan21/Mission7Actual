@@ -53,8 +53,7 @@ using Mission7.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/purchases")]
-    public partial class Purchases : OwningComponentBase<PurchaseRepository>
+    public partial class PurchaseTable : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -62,38 +61,21 @@ using Mission7.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Purchases.razor"
+#line 48 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/PurchaseTable.razor"
        
 
-    public PurchaseRepository repo => Service;
+    [Parameter]
+    public string TableTitle { get; set; } = "Purchases";
 
+    [Parameter]
+    public IEnumerable<Purchase> Purchases { get; set; }
 
-    public IEnumerable<Purchase> AllPurchases { get; set; }
-    public IEnumerable<Purchase> UncollectedPurchases { get; set; }
-    public IEnumerable<Purchase> CollectedPurchases { get; set; }
+    [Parameter]
+    public string ButtonLabel { get; set; } = "Collected";
 
-    protected async override Task OnInitializedAsync()
-    {
-        await UpdateData();
-    }
+    [Parameter]
+    public EventCallback<int> PurchaseSelected { get; set; }
 
-    public async Task UpdateData()
-    {
-        AllPurchases = await repo.purchases.ToListAsync();
-        UncollectedPurchases = AllPurchases.Where(x => !x.PurchaseReceived);
-        CollectedPurchases = AllPurchases.Where(x => x.PurchaseReceived);
-    }
-
-    public void CollectPurchase(int id) => UpdatePurchase(id, true);
-
-    public void ResetPurchase(int id) => UpdatePurchase(id, false);
-
-    private void UpdatePurchase (int id, bool purchased)
-    {
-        Purchase p = repo.purchases.FirstOrDefault(x => x.PurchaseId == id);
-        p.PurchaseReceived = purchased;
-        repo.SavePurchase(p);
-    }
 
 #line default
 #line hidden
