@@ -175,3 +175,7 @@
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Purchases.razor.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/PurchaseTable.razor.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/PurchaseTable.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Details.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs

@@ -1,4 +1,4 @@
-﻿using System;
+﻿    using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
@@ -13,11 +13,6 @@ namespace Mission7.Models
         [Key]
         [Required]
         public long BookId { get; set; }
-
-        internal void AddItem(Book book, int qty)
-        {
-            throw new NotImplementedException();
-        }
 
         [Required]
         public string Title { get; set; }

@@ -61,7 +61,7 @@ using Mission7.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 48 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/PurchaseTable.razor"
+#line 52 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/PurchaseTable.razor"
        
 
     [Parameter]

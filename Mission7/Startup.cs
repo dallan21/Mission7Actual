@@ -107,7 +107,7 @@ namespace Mission7
 
 
                 endpoints.MapBlazorHub();
-                //if it cant find a page then revert to this page
+                //if it cant find a page then revert to this page (admin folder, index file)
                 endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
                
             });

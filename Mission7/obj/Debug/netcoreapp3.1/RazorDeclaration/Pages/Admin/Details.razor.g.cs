@@ -53,8 +53,8 @@ using Mission7.Models;
 #line default
 #line hidden
 #nullable disable
-    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/purchases")]
-    public partial class Purchases : OwningComponentBase<PurchaseRepository>
+    [Microsoft.AspNetCore.Components.RouteAttribute("/admin/books/details/{id:long}")]
+    public partial class Details : Microsoft.AspNetCore.Components.ComponentBase
     {
         #pragma warning disable 1998
         protected override void BuildRenderTree(Microsoft.AspNetCore.Components.Rendering.RenderTreeBuilder __builder)
@@ -62,38 +62,24 @@ using Mission7.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 13 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Purchases.razor"
+#line 34 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Details.razor"
        
 
-    public PurchaseRepository repo => Service;
+    [Inject]
+    public BookListRepository repo { get; set; }
 
+    [Parameter]
+    public long Id { get; set; }
 
-    public IEnumerable<Purchase> AllPurchases { get; set; }
-    public IEnumerable<Purchase> UncollectedPurchases { get; set; }
-    public IEnumerable<Purchase> CollectedPurchases { get; set; }
+    public Book book { get; set; }
 
-    protected async override Task OnInitializedAsync()
+    protected override void OnParametersSet()
     {
-        await UpdateData();
+        book = repo.Books.FirstOrDefault(x => x.BookId == Id);
     }
 
-    public async Task UpdateData()
-    {
-        AllPurchases = await repo.purchases.ToListAsync();
-        UncollectedPurchases = AllPurchases.Where(x => !x.PurchaseReceived);
-        CollectedPurchases = AllPurchases.Where(x => x.PurchaseReceived);
-    }
+    public string EditUrl => $"/admin/books/edit/{book.BookId}";
 
-    public void ShipPurchase(int id) => UpdatePurchase(id, true);
-
-    public void ResetPurchase(int id) => UpdatePurchase(id, false);
-
-    private void UpdatePurchase (int id, bool purchased)
-    {
-        Purchase p = repo.purchases.FirstOrDefault(x => x.PurchaseId == id);
-        p.PurchaseReceived = purchased;
-        repo.SavePurchase(p);
-    }
 
 #line default
 #line hidden

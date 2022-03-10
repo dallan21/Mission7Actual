@@ -2,10 +2,10 @@
 
 @inherits OwningComponentBase<PurchaseRepository>
 
-<PurchaseTable TableTitle="Uncollected Purchases" Purchases="UncollectedPurchases"
-               ButtonLabel="Collected" PurchaseSelected="CollectPurchase"></PurchaseTable>
+<PurchaseTable TableTitle="UnShipped Orders" Purchases="UncollectedPurchases"
+               ButtonLabel="Shipped" PurchaseSelected="ShipPurchase"></PurchaseTable>
 
-<PurchaseTable TableTitle="Collected Purchases" Purchases="CollectedPurchases"
+<PurchaseTable TableTitle="Shipped Orders" Purchases="CollectedPurchases"
                ButtonLabel="Reset" PurchaseSelected="ResetPurchase"></PurchaseTable>
 
 <button class="btn btn-info" @onclick="@(x => UpdateData())">Refresh Data</button>
@@ -31,7 +31,7 @@
         CollectedPurchases = AllPurchases.Where(x => x.PurchaseReceived);
     }
 
-    public void CollectPurchase(int id) => UpdatePurchase(id, true);
+    public void ShipPurchase(int id) => UpdatePurchase(id, true);
 
     public void ResetPurchase(int id) => UpdatePurchase(id, false);
 
