@@ -1,20 +1,25 @@
 ﻿<Properties StartupConfiguration="{C22CA623-FCE6-489F-9153-73CC440F7F66}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Pages/Admin/Editor.razor">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Mission7/Views/Shared/_Layout.cshtml">
     <Files>
       <File FileName="Mission7/Pages/Admin/Books.razor" Line="54" Column="77" />
-      <File FileName="Mission7/Models/Books.cs" Line="1" Column="1" />
+      <File FileName="Mission7/Models/Books.cs" Line="16" Column="1" />
       <File FileName="Mission7/Pages/Admin/Details.razor" Line="1" Column="1" />
       <File FileName="Mission7/Pages/Admin/Editor.razor" Line="16" Column="58" />
+      <File FileName="Mission7/wwwroot/lib/bootstrap/dist/css/bootstrap.css" Line="1" Column="1" />
+      <File FileName="Mission7/Pages/_CartLayout.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Views/Home/Index.cshtml" Line="1" Column="1" />
+      <File FileName="Mission7/Views/Shared/_Layout.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Mission7" expanded="True">
             <Node name="Mission7" expanded="True">
-              <Node name="Models" expanded="True" />
-              <Node name="Pages" expanded="True">
-                <Node name="Admin" expanded="True">
-                  <Node name="Editor.razor" selected="True" />
+              <Node name="Pages" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True">
+                  <Node name="_Layout.cshtml" selected="True" />
                 </Node>
               </Node>
             </Node>

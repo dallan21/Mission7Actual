@@ -63,7 +63,7 @@ using Mission7.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 56 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Books.razor"
+#line 58 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Books.razor"
        
 
     public BookListRepository repo => Service;

@@ -63,7 +63,7 @@ using Mission7.Models;
         }
         #pragma warning restore 1998
 #nullable restore
-#line 88 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
+#line 86 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
        
 
     [Parameter]
@@ -75,7 +75,7 @@ using Mission7.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 93 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
+#line 91 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
                                                                                                                                      
     public string ThemeColor => Id == 0 ? "primary" : "warning";
 
@@ -85,7 +85,7 @@ using Mission7.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 96 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
+#line 94 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
                                                                                                 
     public string TitleText => Id == 0 ? "Create" : "Edit";
 
@@ -95,7 +95,7 @@ using Mission7.Models;
 #line hidden
 #nullable disable
 #nullable restore
-#line 99 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
+#line 97 "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Pages/Admin/Editor.razor"
                                                                           
 public Book b { get; set; } = new Book();
 
