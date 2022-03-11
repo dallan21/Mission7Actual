@@ -179,3 +179,8 @@
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Details.razor.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/RazorDeclaration/Pages/Admin/Editor.razor.g.cs
 /Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/Debug/netcoreapp3.1/Razor/Pages/Admin/Editor.razor.g.cs
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.Internal.dll
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/bin/Debug/netcoreapp3.1/Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Core.dll
+/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/bin/Debug/netcoreapp3.1/Microsoft.Extensions.Identity.Stores.dll

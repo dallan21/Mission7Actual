@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "FAQVNz3ADXtF6PI+ov400fNtD9uFPNKcS6jRG+x5+IEEoh4IkTTwFzUP2GNx0PjI6erf/8OlnoVv3ECpj4Cm2A==",
+  "dgSpecHash": "8KXVfynU3bVm0w4MG053sUQCcDljy0nIKY8gRDgb8z3P9o0iQ2uMhe6EgO5X2WasLHIrMNQYu/M5tbpTMp4UZw==",
   "success": true,
   "projectFilePath": "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/Mission7.csproj",
   "expectedPackageFiles": [
+    "/Users/dallanhernandez/.nuget/packages/microsoft.aspnetcore.cryptography.internal/3.1.22/microsoft.aspnetcore.cryptography.internal.3.1.22.nupkg.sha512",
+    "/Users/dallanhernandez/.nuget/packages/microsoft.aspnetcore.cryptography.keyderivation/3.1.22/microsoft.aspnetcore.cryptography.keyderivation.3.1.22.nupkg.sha512",
+    "/Users/dallanhernandez/.nuget/packages/microsoft.aspnetcore.identity.entityframeworkcore/3.1.22/microsoft.aspnetcore.identity.entityframeworkcore.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.1/microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.bcl.hashcode/1.1.1/microsoft.bcl.hashcode.1.1.1.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
@@ -25,6 +28,8 @@
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.dependencyinjection/3.1.22/microsoft.extensions.dependencyinjection.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/3.1.22/microsoft.extensions.dependencyinjection.abstractions.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.dependencymodel/3.1.6/microsoft.extensions.dependencymodel.3.1.6.nupkg.sha512",
+    "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.identity.core/3.1.22/microsoft.extensions.identity.core.3.1.22.nupkg.sha512",
+    "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.identity.stores/3.1.22/microsoft.extensions.identity.stores.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.logging/3.1.22/microsoft.extensions.logging.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.logging.abstractions/3.1.22/microsoft.extensions.logging.abstractions.3.1.22.nupkg.sha512",
     "/Users/dallanhernandez/.nuget/packages/microsoft.extensions.options/3.1.22/microsoft.extensions.options.3.1.22.nupkg.sha512",

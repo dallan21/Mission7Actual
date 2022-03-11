@@ -14,7 +14,7 @@
         "outputPath": "/Users/dallanhernandez/Documents/GitHub/Mission7Actual/Mission7/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/dallanhernandez/.config/NuGet/NuGet.Config"
+          "/Users/dallanhernandez/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -38,6 +38,10 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.22, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[3.1.22, )"

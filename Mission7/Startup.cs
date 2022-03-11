@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -29,12 +30,20 @@ namespace Mission7
         {
 
             services.AddControllersWithViews();
-
+            //set up the connection for the Book store database 
             services.AddDbContext<BookstoreContext>(options =>
            {
                options.UseSqlite(Configuration["ConnectionStrings:BookDBConnection"]);
 
            });
+            //set up the connection for the identity database 
+            services.AddDbContext<AppIdentityDBContext>(options =>
+            {
+                options.UseSqlite(Configuration["ConnectionStrings:IdentityConnection"]);
+            });
+
+            services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddEntityFrameworkStores<AppIdentityDBContext>();
 
             services.AddScoped<BookListRepository, EFBookListRepository>();
             services.AddScoped<PurchaseRepository, EFPurchaseRepository>();
@@ -77,6 +86,9 @@ namespace Mission7
             app.UseRouting();
 
             app.UseAuthorization();
+
+            app.UseAuthentication();
+            
 
             //endpoints are executed in order
             app.UseEndpoints(endpoints =>
