@@ -123,6 +123,8 @@ namespace Mission7
                 endpoints.MapFallbackToPage("/admin/{*catchall}", "/Admin/Index");
                
             });
+
+            IdentitySeedData.EnsurePopulated(app);
         }
     }
 }

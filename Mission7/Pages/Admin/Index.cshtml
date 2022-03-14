@@ -1,4 +1,9 @@
 ﻿@page "/admin"
+
+@*This will make it so that when we go to the admin page, it will have us login*@
+@using Microsoft.AspNetCore.Authorization
+@attribute [Authorize]
+
 @model Mission7.Pages.AdminModel
 @{
 }
